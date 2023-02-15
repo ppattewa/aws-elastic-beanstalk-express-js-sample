@@ -19,7 +19,7 @@ const mongoose = require('mongoose')
 //     useFindAndModify: false
 // })
 
-mongoose.connect('mongodb://pankaj:Password12@docdb-demoapp.csbowdhwhfx2.us-east-1.docdb.amazonaws.com:27017/?retryWrites=false', {
+mongoose.connect('mongodb://pankaj:Password12@docdb-demoapp.csbowdhwhfx2.us-east-1.docdb.amazonaws.com:27017/admin?retryWrites=false', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false
