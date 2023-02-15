@@ -1,17 +1,24 @@
 {
-  "name": "aws-elastic-beanstalk-express-js-sample",
+  "name": "task-manager",
   "version": "1.0.0",
-  "description": "Sample Node.js (Express) app for AWS Elastic Beanstalk",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aws-samples/aws-elastic-beanstalk-express-js-sample.git"
-  },
-  "license": "MIT-0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3"
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.16",
+    "validator": "^10.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
   }
 }
