@@ -19,15 +19,15 @@ const mongoose = require('mongoose')
 //     useFindAndModify: false
 // })
 
-mongoose.connect('mongodb://pankaj:Password12@docdb-demoapp.csbowdhwhfx2.us-east-1.docdb.amazonaws.com:27017/?&replicaSet=rs0', {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
-    ssl:false
-}).then(()=>console.log('Connection to db Successful'))
-.catch((err)=> {
-    console.log('Inside error')
-    console.error(err)
-})
+// mongoose.connect('mongodb://pankaj:Password12@docdb-demoapp.csbowdhwhfx2.us-east-1.docdb.amazonaws.com:27017/?&replicaSet=rs0', {
+//     useNewUrlParser: true,
+//     useCreateIndex: true,
+//     useFindAndModify: false,
+//     ssl:false
+// }).then(()=>console.log('Connection to db Successful'))
+// .catch((err)=> {
+//     console.log('Inside error')
+//     console.error(err)
+// })
 
 //mongodb://pankaj:Password12@docdb-demoapp.cluster-csbowdhwhfx2.us-east-1.docdb.amazonaws.com:27017/?replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false
